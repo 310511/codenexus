@@ -1,5 +1,6 @@
 # 🌟 SustainLABs - Revolutionizing Renewable Energy Management
-
+# Demo Link: https://sustainlab.netlify.app/
+# Demo Video: https://youtu.be/zWY7RrNaMm4
 > **Transforming fragmented energy systems into unified, efficient, and trustworthy sustainable solutions**
 
 <div align="center">
@@ -266,10 +267,6 @@ Our platform unifies renewable energy management with AI-powered insights, block
 
 ---
 
-## 📽️ Demo & Deliverables
-
-- **Demo Video Link:** [SustainLABs Platform Demo](https://youtu.be/fEW80uieYXs)  
-- **Pitch Deck:** [SustainLABs Pitch Presentation](https://drive.google.com/file/d/1X2Y3Z/view)  
 
 <div align="center">
   <img src="demo/landing page 2.png" alt="SustainLABs Platform" width="900" height="500" style="border-radius: 10px; margin: 30px 0;"/>
@@ -305,13 +302,6 @@ Our platform unifies renewable energy management with AI-powered insights, block
   </div>
 </div>
 
----
-
-## ✅ Tasks & Bonus Checklist
-
-- ✅ **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form**
-- ✅ **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**
-- ✅ **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**
 
 ---
 
@@ -445,7 +435,7 @@ python manage.py runserver
     <a href="https://github.com/Ayushdevx/SustainLABs" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/GitHub-View_Repository-2EA44F?style=for-the-badge&logo=github" alt="View on GitHub" height="40">
     </a>
-    <a href="https://youtu.be/fEW80uieYXs" style="text-decoration: none; margin-left: 20px;">
+    <a href="[https://youtu.be/fEW80uieYXs](https://youtu.be/zWY7RrNaMm4)" style="text-decoration: none; margin-left: 20px;">
       <img src="https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=for-the-badge&logo=youtube" alt="Watch Demo" height="40">
     </a>
   </div>
