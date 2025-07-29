@@ -1,6 +1,7 @@
 [build]
-  publish = "SustainLabs/dist"
-  command = "cd SustainLabs && npm run build"
+  base = "SustainLabs"
+  publish = "dist"
+  command = "npm run build"
 
 [[redirects]]
   from = "/*"
