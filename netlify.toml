@@ -1,0 +1,8 @@
+[build]
+  publish = "SustainLabs/dist"
+  command = "cd SustainLabs && npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
