@@ -1,5 +1,5 @@
 <h1 align="center">🌱 SustainLABs – Hands-On Clean Energy Education for the Future</h1>
-<h3 align="center"><a href="https://sustainlab.netlify.app/">🌐 Live Demo</a> | <a href="https://youtu.be/zWY7RrNaMm4">▶️ Watch Video</a></h3>
+<h3 align="center"><a href="https://sustainlab.netlify.app/">🌐 Live Demo</a> 
 
 <p align="center"><strong>Empowering students to simulate, analyze, and master clean energy systems using AI, blockchain, and immersive dashboards.</strong></p>
 
