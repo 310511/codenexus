@@ -37,9 +37,6 @@ Our platform unifies renewable energy management with AI-powered insights, block
 ### Team Name:  
 `Spider`
 
-### Team Members:   
-- **Punya Mittal** ([GitHub](https://github.com/Punyamittal) | [LinkedIn](https://www.linkedin.com/in/punya-mittal-a1122520b))
-
 ### Our Approach:  
 - We chose this problem because fragmented renewable energy systems limit rural economic development
 - We overcame data synchronization challenges using edge computing and Merkle tree verification
@@ -197,6 +194,5 @@ python manage.py runserver
 ```
 📚 Learning & Development
 <div style="display: flex; flex-wrap: wrap; gap: 20px;"> <div style="width: 48%;"> <img src="SustainLabs/demo/learning dashboard.png" width="100%" height="300px"/> <p>Interactive learning dashboard</p> </div> <div style="width: 48%;"> <img src="SustainLabs/demo/learning roadmap.png" width="100%" height="300px"/> <p>Structured learning paths for energy skills</p> </div> </div>
-👥 Team
- <h3>Punya Mittal</h3>  </div>
+
  <p style="margin-top: 40px; color: #666; font-style: italic;">Built with 💚 by Team SPIDER</p> </div>
