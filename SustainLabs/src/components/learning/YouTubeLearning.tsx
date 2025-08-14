@@ -29,7 +29,7 @@ interface YouTubeSearchResponse {
 }
 
 // API key for YouTube Data API v3
-const API_KEY = 'AIzaSyCj_AxKAAYgCeN22OTreUwZsuTy83GKA08';
+const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY || '';
 
 // Categories/topics for sustainability and educational videos
 const TOPICS = [

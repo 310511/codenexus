@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Mic, MicOff, Camera, Loader2, CheckCircle2, PauseCircle, PlayCircle, X } from 'lucide-react';
 
 // Initialize the Google Generative AI client
-const genAI = new GoogleGenerativeAI('AIzaSyDzYHVthRT3e9Hy9UNu9CBGgBfRqjWYKVw');
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY || '');
 
 // Define types
 interface Question {

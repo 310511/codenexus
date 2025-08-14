@@ -63,7 +63,7 @@ interface UploadedFile {
   isImage: boolean;
 }
 
-const API_KEY = 'AIzaSyD8ycFuFWs7xEkTwGv7JIx__4j9ISAZJcg';
+const API_KEY = import.meta.env.VITE_GOOGLE_AI_API_KEY || '';
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 const WEATHER_API_KEY = '38bbd278ec684e78921132440240308';
 const WEATHER_API_URL = 'http://api.weatherapi.com/v1/current.json';

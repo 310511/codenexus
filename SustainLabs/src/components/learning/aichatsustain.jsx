@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react'
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { Send, Bot, Copy, Check, Volume2, VolumeX, Mic, MicOff, Download, Leaf, Sun, Wind, Droplets, Zap, RefreshCcw, RotateCcw, Share, Sparkles, ChevronDown, ChevronUp, Image as ImageIcon, Code, Save, Settings, Info, Edit3, User, PieChart, Clock, Star, BookOpen, MessageSquare, FileText, Moon, Heart, Trash2 } from 'lucide-react';
 import { motion, AnimatePresence, AnimateSharedLayout } from 'framer-motion';
-const genAI = new GoogleGenerativeAI('AIzaSyDzYHVthRT3e9Hy9UNu9CBGgBfRqjWYKVw');
+const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY || '');
 
 // AI Personalities with preset personalities 
 const aiPersonas = [

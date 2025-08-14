@@ -53,6 +53,36 @@ Our platform unifies renewable energy management with AI-powered insights, block
   <img src="demo/network4.png" alt="Technology Network" width="850" height="450"/>
 </div>
 
+## 🔐 Environment Setup
+
+### API Keys Configuration
+
+This project uses several Google AI services that require API keys. To set up the environment:
+
+1. **Copy the environment template:**
+   ```bash
+   cp .env.example .env
+   ```
+
+2. **Add your API keys to the `.env` file:**
+   ```env
+   VITE_GEMINI_API_KEY=your_gemini_api_key_here
+   VITE_YOUTUBE_API_KEY=your_youtube_api_key_here
+   VITE_GOOGLE_AI_API_KEY=your_google_ai_api_key_here
+   ```
+
+3. **Get your API keys:**
+   - **Gemini API Key**: Visit [Google AI Studio](https://makersuite.google.com/app/apikey) to create a Gemini API key
+   - **YouTube API Key**: Visit [Google Cloud Console](https://console.cloud.google.com/) and enable YouTube Data API v3
+   - **Google AI API Key**: Use the same Gemini API key for most features
+
+4. **Security Note**: Never commit your `.env` file to version control. It's already included in `.gitignore`.
+
+### Required API Keys:
+- **VITE_GEMINI_API_KEY**: For AI-powered learning features and chatbots
+- **VITE_YOUTUBE_API_KEY**: For educational video content integration
+- **VITE_GOOGLE_AI_API_KEY**: For advanced AI features and content generation
+
 ### Core Technologies Used:
 - **Frontend**: React, TypeScript, Framer Motion, Recharts
 - **Backend**: Python, Node.js, Express, Socket.IO

@@ -18,7 +18,7 @@ const InterviewPrep = () => {
   const [recognition, setRecognition] = useState(null);
 
 
-  const genAI = new GoogleGenerativeAI('AIzaSyDm2ODVscz6kNEsHPo4yWlyyRMiGXWFLQA');
+  const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY || '');
 
   useEffect(() => {
     if ('webkitSpeechRecognition' in window) {

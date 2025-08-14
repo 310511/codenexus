@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Upload, FileText, Send, Briefcase, CheckCircle, Volume2, X, Check, ArrowRight, BarChart, Search, Zap, List, FileUp, Trash2, Download } from 'lucide-react';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-// Use a proper API key management approach in production
-const GEMINI_API_KEY = "AIzaSyDYkEfit-LZ6afs61_PS8YM6Jaws-Ztf1s"; 
+// Use environment variable for API key
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || ''; 
 
 const ResumeProcessor = () => {
   const [file, setFile] = useState(null);

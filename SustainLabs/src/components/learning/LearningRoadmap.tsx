@@ -10,7 +10,7 @@ interface RoadmapProps {
   className?: string;
 }
 
-const GEMINI_API_KEY = "AIzaSyDm2ODVscz6kNEsHPo4yWlyyRMiGXWFLQA";
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';
 
 const LearningRoadmap: React.FC<RoadmapProps> = ({ className = "" }) => {
   const [topic, setTopic] = useState<string>('');
